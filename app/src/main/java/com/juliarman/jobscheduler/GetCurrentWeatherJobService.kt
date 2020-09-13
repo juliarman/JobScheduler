@@ -22,7 +22,7 @@ class GetCurrentWeatherJobService : JobService() {
 
         private val TAG = GetCurrentWeatherJobService::class.java.simpleName
         internal const val CITY = "Makassar"
-        internal const val APP_ID = "46b29219e2128a38c39b6e7591b302d1"
+        internal const val APP_ID = "Pasangki API ID KEY DISINI"
     }
 
     override fun onStartJob(params: JobParameters): Boolean {
